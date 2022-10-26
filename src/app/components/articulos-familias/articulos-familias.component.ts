@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+
+// ETAPA 2
 import { ArticuloFamilia } from '../../models/articulo-familia';
 import { ArticulosFamiliasService } from '../../services/articulos-familias.service';
 import { MockArticulosFamiliasService } from '../../services/mock-articulos-familias.service';

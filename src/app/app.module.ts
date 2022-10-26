@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { PreloadAllModules, RouterModule } from '@angular/router';
 import {
   NgbDatepickerModule,
@@ -13,13 +12,18 @@ import {
   NgbDateParserFormatter,
   NgbDatepickerI18n,
 } from '@ng-bootstrap/ng-bootstrap';
-import { APP_BASE_HREF } from '@angular/common';
-// ETAPAS
 import { AppComponent } from './app.component';
-import { ArticulosFamiliasComponent } from './components/articulos-familias/articulos-familias.component';
-import { MenuComponent } from './components/menu/menu.component';
+// ETAPA 1
 import { InicioComponent } from './components/inicio/inicio.component';
+// ETAPA 2
+import { ArticulosFamiliasComponent } from './components/articulos-familias/articulos-familias.component';
+// ETAPA 3
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { APP_BASE_HREF } from '@angular/common';
+import { MenuComponent } from './components/menu/menu.component';
+// ETAPA 4
 import { ArticulosComponent } from './components/articulos/articulos.component';
+// ETAPA 8
 import { ModalDialogComponent } from './components/modal-dialog/modal-dialog.component';
 
 @NgModule({
