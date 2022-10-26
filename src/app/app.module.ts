@@ -37,7 +37,6 @@ import { ModalDialogComponent } from './components/modal-dialog/modal-dialog.com
     NgbTypeaheadModule,
     NgbDatepickerModule,
 
-    //define a que url corresponde cada componente a mostrar
     RouterModule.forRoot([
       { path: '', redirectTo: '/inicio', pathMatch: 'full' },
       { path: 'inicio', component: InicioComponent },
@@ -46,7 +45,6 @@ import { ModalDialogComponent } from './components/modal-dialog/modal-dialog.com
     ]),
   ],
   entryComponents: [ModalDialogComponent],
-
   declarations: [
     AppComponent,
     ArticulosFamiliasComponent,
