@@ -27,3 +27,6 @@ footer {
   margin: 0.3em;
   border-radius: 1em;
 }
+
+/* Add application styles & imports to this file! */
+@import "~bootstrap/dist/css/bootstrap.css"
